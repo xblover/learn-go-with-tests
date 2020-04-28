@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/v1/hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-world/v1/hello_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v2/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v2/hello_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v3/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v3/hello_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,43 +50,69 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestHello in learn-go-with-tests/hello-world/v1">
-    <configuration name="go build learn-go-with-tests/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestHello in learn-go-with-tests/hello-world/v3">
+    <configuration name="TestHello in learn-go-with-tests/hello-world/v2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go-with-tests" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/hello/hello.go" />
-      <package value="learn-go-with-tests/hello" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHello in learn-go-with-tests/hello-world/v1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/hello-world/v1" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v2" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go-with-tests/hello-world/v1" />
+      <package value="learn-go-with-tests/hello-world/v2" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestHello$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello in learn-go-with-tests/hello" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHello in learn-go-with-tests/hello-world/v3" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/hello" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v3" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go-with-tests/hello" />
+      <package value="learn-go-with-tests/hello-world/v3" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestHello$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello/empty_string in learn-go-with-tests/hello-world/v2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v2" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/hello-world/v2" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHello$/^empty_string$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello/in_French in learn-go-with-tests/hello-world/v2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v2" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/hello-world/v2" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHello$/^in_French$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello/in_Spanish in learn-go-with-tests/hello-world/v2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v2" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/hello-world/v2" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHello$/^in_Spanish$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v1" />
-        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello" />
-        <item itemvalue="Go Build.go build learn-go-with-tests/hello" />
+        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v3" />
+        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v2" />
+        <item itemvalue="Go Test.TestHello/in_French in learn-go-with-tests/hello-world/v2" />
+        <item itemvalue="Go Test.TestHello/in_Spanish in learn-go-with-tests/hello-world/v2" />
+        <item itemvalue="Go Test.TestHello/empty_string in learn-go-with-tests/hello-world/v2" />
       </list>
     </recent_temporary>
   </component>
@@ -116,22 +142,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="293" y="194" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1588076861164" />
-    <state width="839" height="197" key="GridCell.Tab.0.bottom" timestamp="1588078577893">
+    <state width="839" height="267" key="GridCell.Tab.0.bottom" timestamp="1588080608656">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588078577893" />
-    <state width="839" height="197" key="GridCell.Tab.0.center" timestamp="1588078577892">
+    <state width="839" height="267" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588080608656" />
+    <state width="839" height="267" key="GridCell.Tab.0.center" timestamp="1588080608652">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588078577892" />
-    <state width="839" height="197" key="GridCell.Tab.0.left" timestamp="1588078577892">
+    <state width="839" height="267" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588080608652" />
+    <state width="839" height="267" key="GridCell.Tab.0.left" timestamp="1588080608651">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588078577892" />
-    <state width="839" height="197" key="GridCell.Tab.0.right" timestamp="1588078577893">
+    <state width="839" height="267" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588080608651" />
+    <state width="839" height="267" key="GridCell.Tab.0.right" timestamp="1588080608653">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588078577893" />
+    <state width="839" height="267" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588080608653" />
     <state x="148" y="48" key="SettingsEditor" timestamp="1588076863194">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
