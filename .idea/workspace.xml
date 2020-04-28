@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.6/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1bAUb7pOI35Y90e0hTSYGPFWzjg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestHello in learn-go-with-tests/hello">
+    <configuration name="go build learn-go-with-tests/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/hello/hello.go" />
+      <package value="learn-go-with-tests/hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello in learn-go-with-tests/hello" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/hello" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/hello" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHello$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello" />
+        <item itemvalue="Go Build.go build learn-go-with-tests/hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="" />
+      <created>1588074459626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588074459626</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="76" key="#Notifications" timestamp="1588076905327">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="439" y="76" key="#Notifications/0.23.1280.777@0.23.1280.777" timestamp="1588076905327" />
+    <state x="293" y="194" key="EditFileWatcherDialog" timestamp="1588076861164">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="293" y="194" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1588076861164" />
+    <state width="839" height="197" key="GridCell.Tab.0.bottom" timestamp="1588076885986">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="839" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588076885986" />
+    <state width="839" height="197" key="GridCell.Tab.0.center" timestamp="1588076885985">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="839" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588076885985" />
+    <state width="839" height="197" key="GridCell.Tab.0.left" timestamp="1588076885984">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="839" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588076885984" />
+    <state width="839" height="197" key="GridCell.Tab.0.right" timestamp="1588076885985">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="839" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588076885985" />
+    <state x="148" y="48" key="SettingsEditor" timestamp="1588076863194">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="148" y="48" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1588076863194" />
+  </component>
+</project>
