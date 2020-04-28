@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/integers/v1/adder.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integers/v1/adder_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/repeat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for/repeat_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.ExampleAdd in learn-go-with-tests/integers/v1">
+  <component name="RunManager" selected="Go Test.BenchmarkRepeat in learn-go-with-tests/for">
+    <configuration name="BenchmarkRepeat in learn-go-with-tests/for" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/for" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/for" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkRepeat$" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExampleAdd in learn-go-with-tests/integers/v1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go-with-tests" />
       <working_directory value="$PROJECT_DIR$/integers/v1" />
@@ -71,26 +82,15 @@
       <pattern value="^TestAdder$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestHello in learn-go-with-tests/hello-world/v2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRepeat in learn-go-with-tests/for" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/hello-world/v2" />
+      <working_directory value="$PROJECT_DIR$/for" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learn-go-with-tests/hello-world/v2" />
+      <package value="learn-go-with-tests/for" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestHello$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHello in learn-go-with-tests/hello-world/v3" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learn-go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/hello-world/v3" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="learn-go-with-tests/hello-world/v3" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestHello$" />
+      <pattern value="^TestRepeat$" />
       <method v="2" />
     </configuration>
     <configuration name="gobench learn-go-with-tests/integers/v1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkRepeat in learn-go-with-tests/for" />
+        <item itemvalue="Go Test.TestRepeat in learn-go-with-tests/for" />
         <item itemvalue="Go Test.ExampleAdd in learn-go-with-tests/integers/v1" />
         <item itemvalue="Go Test.TestAdder in learn-go-with-tests/integers/v1" />
         <item itemvalue="Go Test.gobench learn-go-with-tests/integers/v1" />
-        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v3" />
-        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v2" />
       </list>
     </recent_temporary>
   </component>
@@ -139,22 +139,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="293" y="194" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1588076861164" />
-    <state width="839" height="375" key="GridCell.Tab.0.bottom" timestamp="1588082338033">
+    <state width="839" height="180" key="GridCell.Tab.0.bottom" timestamp="1588083940649">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="375" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588082338033" />
-    <state width="839" height="375" key="GridCell.Tab.0.center" timestamp="1588082338032">
+    <state width="839" height="180" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588083940649" />
+    <state width="839" height="180" key="GridCell.Tab.0.center" timestamp="1588083940649">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="375" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588082338032" />
-    <state width="839" height="375" key="GridCell.Tab.0.left" timestamp="1588082338031">
+    <state width="839" height="180" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588083940649" />
+    <state width="839" height="180" key="GridCell.Tab.0.left" timestamp="1588083940648">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="375" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588082338031" />
-    <state width="839" height="375" key="GridCell.Tab.0.right" timestamp="1588082338032">
+    <state width="839" height="180" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588083940648" />
+    <state width="839" height="180" key="GridCell.Tab.0.right" timestamp="1588083940649">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="375" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588082338032" />
+    <state width="839" height="180" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588083940649" />
     <state x="148" y="48" key="SettingsEditor" timestamp="1588076863194">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
