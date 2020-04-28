@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="" />
+    <list default="true" id="bcb4c63c-9c1e-46ce-8054-c2091c5fb926" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v1/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world/v1/hello_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +21,16 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1bAUb7pOI35Y90e0hTSYGPFWzjg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +39,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunManager" selected="Go Test.TestHello in learn-go-with-tests/hello">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestHello in learn-go-with-tests/hello-world/v1">
     <configuration name="go build learn-go-with-tests/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn-go-with-tests" />
       <working_directory value="$PROJECT_DIR$" />
@@ -40,6 +58,17 @@
       <filePath value="$PROJECT_DIR$/hello/hello.go" />
       <package value="learn-go-with-tests/hello" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello in learn-go-with-tests/hello-world/v1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learn-go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/hello-world/v1" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learn-go-with-tests/hello-world/v1" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestHello$" />
       <method v="2" />
     </configuration>
     <configuration name="TestHello in learn-go-with-tests/hello" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -55,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello-world/v1" />
         <item itemvalue="Go Test.TestHello in learn-go-with-tests/hello" />
         <item itemvalue="Go Build.go build learn-go-with-tests/hello" />
       </list>
@@ -86,25 +116,28 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="293" y="194" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1588076861164" />
-    <state width="839" height="197" key="GridCell.Tab.0.bottom" timestamp="1588076885986">
+    <state width="839" height="197" key="GridCell.Tab.0.bottom" timestamp="1588078577893">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588076885986" />
-    <state width="839" height="197" key="GridCell.Tab.0.center" timestamp="1588076885985">
+    <state width="839" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588078577893" />
+    <state width="839" height="197" key="GridCell.Tab.0.center" timestamp="1588078577892">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588076885985" />
-    <state width="839" height="197" key="GridCell.Tab.0.left" timestamp="1588076885984">
+    <state width="839" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588078577892" />
+    <state width="839" height="197" key="GridCell.Tab.0.left" timestamp="1588078577892">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588076885984" />
-    <state width="839" height="197" key="GridCell.Tab.0.right" timestamp="1588076885985">
+    <state width="839" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588078577892" />
+    <state width="839" height="197" key="GridCell.Tab.0.right" timestamp="1588078577893">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="839" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588076885985" />
+    <state width="839" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588078577893" />
     <state x="148" y="48" key="SettingsEditor" timestamp="1588076863194">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="148" y="48" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1588076863194" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learn_go_with_tests$TestHello_in_learn_go_with_tests_hello_world_v1.out" NAME="TestHello in learn-go-with-tests/hello-world/v1 Coverage Results" MODIFIED="1588078577849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
